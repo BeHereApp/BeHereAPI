@@ -11,7 +11,8 @@ const port = process.env.PORT || 3000;
 
 // Configure mongo
 mongoose.Promise = Promise;
-mongoose.connect('mongodb://localhost/behere_db', { useMongoClient: true });
+mongoose.set('useCreateIndex', true)
+mongoose.connect('mongodb://localhost/behere_db', { useNewUrlParser: true });
 
 // Logger
 app.use(morgan('dev'));
