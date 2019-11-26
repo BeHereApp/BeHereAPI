@@ -1913,9 +1913,9 @@ http-signature@~1.1.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-http-status@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/http-status/-/http-status-1.3.2.tgz#a4fb27db5e32948fecd2fb110b9b3afef4a07bf7"
+http-status@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/http-status/-/http-status-1.4.1.tgz#eee383f10179305415dc2010bf534513e93abe5f"
 
 iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
